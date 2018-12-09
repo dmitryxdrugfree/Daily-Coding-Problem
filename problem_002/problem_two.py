@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Daily Coding Problem: Problem #2 by Uber
 """
@@ -36,4 +35,5 @@ def checkSolution():
         print("Test 4 - OK")
     else: 
         print("Test 4 - Fail!")
+
 checkSolution()        
