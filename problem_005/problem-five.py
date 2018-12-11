@@ -13,5 +13,15 @@ def cdr(f):
         return b
     return f(last)
 
-print(car(cons(3,4)))
-print(cdr(cons(3,4)))
+def checkSolution():
+    if car(cons(3,4)) == 3:
+        print("Test 1.1 - OK")
+    else: 
+        print("Test 1.1 - Fail!")
+    
+    if cdr(cons(3,4)) == 4:
+        print("Test 1.2 - OK")
+    else: 
+        print("Test 1.2 - Fail!")
+
+checkSolution()
