@@ -7,3 +7,4 @@ Interesting, how much longer I can keep doing this?)
 + 09.12.2018 - added solution to first task
 + 09.12.2018 - added solution to second task
 + 10.12.2018 - added solution to four task
++ 11.12.2018 - added solution to five task
