@@ -1,5 +1,19 @@
 def findMaxSumOfNonAdjacentNumbers(numbers):
-    pass
+    incl = 0
+    excl = 0
+     
+    for i in numbers:           
+        prev_excl = findMax(incl, excl) 
+        
+        incl = excl + i 
+        excl = prev_excl 
+
+        print("incl: ", incl," excl: ", excl)
+
+    return (findMax(incl, excl))
+
+def findMax(a, b):
+    return (a if a>b else b)  
 
 def test_solution():
     t1 = [2, 4, 6, 2, 5]
