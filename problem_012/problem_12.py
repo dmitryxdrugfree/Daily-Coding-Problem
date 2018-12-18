@@ -16,5 +16,3 @@ def test_climbToStaircase():
     print("Test 1: ", "OK!" if climbToStaircase(t1) == a1 else "Failed!")
 
 test_climbToStaircase()
-
-4
