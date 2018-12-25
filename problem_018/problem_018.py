@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Dec 24 22:39:32 2018
-
-@author: BigBoss
+daily coding problem 18
 """
 
 def maxInSubArray(numbers, k):
