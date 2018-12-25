@@ -13,7 +13,6 @@ def maxInSubArray(numbers, k):
     >>> maxInSubArray([10, 5, 2, 7, 8, 7], 2)
     [10, 5, 7, 8, 8]
     '''
-
     counter = 0
     while k!=len(numbers)+1:
         numbers[counter] = max(numbers[counter:k])
@@ -21,7 +20,6 @@ def maxInSubArray(numbers, k):
         counter+=1
     return numbers[:counter]
 
-print(maxInSubArray([10, 5, 2, 7, 8, 7], 3))
 
 if __name__ == "__main__":
     import doctest
