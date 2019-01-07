@@ -15,3 +15,4 @@ Interesting, how much longer I can keep doing this?)
 + 21.12.2018 - added solution to problem #14
 + 25.12.2018 - added solution to problem #18
 + 27.12.2018 - added solution to problem #21
++ 07.01.2019 - added solution to problem #29
